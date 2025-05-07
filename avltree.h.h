@@ -1,7 +1,3 @@
-//
-// Created by Mumba on 29/12/2024.
-//
-
 typedef struct Patient {
     char name[50];
     char surname[50];
@@ -29,4 +25,4 @@ AVLTree DoubleRotateWithRight(AVLTree);
 int AVLTreeHeight(AVLTree);
 void DisplayTreeStructure(AVLTree, int);
 int Max(int, int);
-#endif //CNG_213_ASSIGNMENT_3_AVLTREE_H_H
+#endif 
